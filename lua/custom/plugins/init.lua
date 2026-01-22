@@ -3,5 +3,6 @@
 --
 -- See the kickstart.nvim README for more information
 require 'custom.plugins.keybinds'
+require 'custom.plugins.indent'
 
 return {}

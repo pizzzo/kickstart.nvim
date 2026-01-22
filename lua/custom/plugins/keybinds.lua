@@ -9,7 +9,7 @@ vim.opt.shellxquote = ''
 --
 -- Lil something for deleting current buffer with Alt-k
 vim.api.nvim_set_keymap('n', '<M-k>', ':bd<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<M-q>', ':qa!<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<M-K>', ':qa!<CR>', { noremap = true, silent = true })
 -- for saving all files.
 vim.api.nvim_set_keymap('n', '<M-w>', ':wa<CR>', { noremap = true, silent = true })
 
