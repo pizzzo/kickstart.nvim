@@ -1,9 +1,3 @@
--- Set global defaults (e.g., 4 spaces by default)
-vim.opt.tabstop = 4
-vim.opt.shiftwidth = 4
-vim.opt.expandtab = true
-vim.opt.softtabstop = 4
-
 -- Override settings for specific file types
 vim.api.nvim_create_autocmd('FileType', {
   pattern = { 'css', 'html', 'lua', 'xml' },
