@@ -1,6 +1,6 @@
 -- Override settings for specific file types
 vim.api.nvim_create_autocmd('FileType', {
-  pattern = { 'css', 'html', 'lua', 'xml' },
+  pattern = { 'css', 'html', 'lua', 'xml', 'json' },
   callback = function()
     vim.opt_local.shiftwidth = 2
     vim.opt_local.tabstop = 2
