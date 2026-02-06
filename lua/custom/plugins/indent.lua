@@ -11,7 +11,7 @@ vim.api.nvim_create_autocmd('FileType', {
 
 -- Override settings for file types that require real tabs (e.g., Makefiles)
 vim.api.nvim_create_autocmd('FileType', {
-  pattern = { 'javascript' },
+  pattern = { 'javascript', 'javascriptreact', 'typescript', 'typescriptreact' },
   callback = function()
     vim.opt_local.expandtab = true
     vim.opt_local.tabstop = 4
